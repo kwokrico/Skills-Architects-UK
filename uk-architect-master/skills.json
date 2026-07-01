@@ -1,0 +1,221 @@
+{
+  "version": "2.1.0",
+  "master_skill": "uk-architect-master",
+  "skills": [
+    {
+      "id": "uk-architect-foundations",
+      "title": "UK Architect Foundations",
+      "load_when": "ARB competence, practice standards, professional conduct, or general UK architect role baseline before specialist routing"
+    },
+    {
+      "id": "uk-accessibility-design",
+      "title": "UK Accessibility Design",
+      "load_when": "Part M, inclusive design, approach routes, vertical circulation, sanitary provision, or accessibility strategy"
+    },
+    {
+      "id": "uk-acoustic-design",
+      "title": "UK Acoustic Design",
+      "load_when": "Part E, sound insulation, noise exposure, acoustic facades, or internal acoustic zoning"
+    },
+    {
+      "id": "uk-architect-calculator",
+      "title": "UK Architect Calculator",
+      "load_when": "Part L screen, Part O screen, IPMS area conversion, egress distance check, or run_uk_calculator payloads"
+    },
+    {
+      "id": "uk-alterations-additions",
+      "title": "UK Alterations and Additions",
+      "load_when": "Refurbishment, extension, change of use interfaces, or existing-building adaptation strategy"
+    },
+    {
+      "id": "uk-building-codes",
+      "title": "UK Building Codes",
+      "load_when": "Building Regulations, Approved Documents, BSA gateways, HRB dutyholders, golden thread, or compliance roadmaps"
+    },
+    {
+      "id": "uk-building-envelope",
+      "title": "UK Building Envelope",
+      "load_when": "Facade, thermal bridges, moisture risk, weathertightness, or envelope coordination"
+    },
+    {
+      "id": "uk-building-programming",
+      "title": "UK Building Programming",
+      "load_when": "Schedule of accommodation, briefing, utilisation, test-fits, or space standards"
+    },
+    {
+      "id": "uk-building-services",
+      "title": "UK Building Services",
+      "load_when": "MEP strategy, plant distribution, commissioning planning, or services coordination"
+    },
+    {
+      "id": "uk-building-sustainability",
+      "title": "UK Building Sustainability",
+      "load_when": "Part L, Part O, BREEAM, WELL, LEED, embodied carbon, or sustainability strategy"
+    },
+    {
+      "id": "uk-building-typology",
+      "title": "UK Building Typology",
+      "load_when": "Building type selection, typology benchmarks, or sector-specific design patterns"
+    },
+    {
+      "id": "uk-cashflow-debt-recovery",
+      "title": "UK Cashflow and Debt Recovery",
+      "load_when": "Practice cashflow, debt recovery, payment cycles, or fee collection risk"
+    },
+    {
+      "id": "uk-certificate-of-compliance",
+      "title": "UK Certificate of Compliance",
+      "load_when": "Completion certificates, compliance sign-off packs, or statutory completion evidence"
+    },
+    {
+      "id": "uk-concept-design",
+      "title": "UK Concept Design",
+      "load_when": "Optioneering, stage strategy, concept options, or value/cost/risk balancing at early design"
+    },
+    {
+      "id": "uk-consent-scheduling",
+      "title": "UK Consent Scheduling",
+      "load_when": "Planning and statutory consent programme, submission sequencing, or consent dependencies"
+    },
+    {
+      "id": "uk-construction-documentation",
+      "title": "UK Construction Documentation",
+      "load_when": "Technical packages, NBS-aligned specs, drawing quality, or stage-4 coordination"
+    },
+    {
+      "id": "uk-construction-health-safety",
+      "title": "UK Construction Health and Safety",
+      "load_when": "CDM 2015, HSE liaison, Principal Designer/Contractor duties, H&S file, site safety plans, or accident reporting"
+    },
+    {
+      "id": "uk-construction-programme",
+      "title": "UK Construction Programme",
+      "load_when": "Construction sequencing, swimlanes, fast-tracking, look-ahead programmes, MMC interfaces, or sectional completion"
+    },
+    {
+      "id": "uk-cost-consultancy",
+      "title": "UK Cost Consultancy",
+      "load_when": "NRM cost plans, BoQ, tender pricing, interim valuations, variations, claims support, or final account"
+    },
+    {
+      "id": "uk-deliverables-workstages",
+      "title": "UK Deliverables and Workstages",
+      "load_when": "Issue packs, transmittals, deliverables registers, RACI, ISO 19650 status codes, or stage freeze"
+    },
+    {
+      "id": "uk-daylighting-design",
+      "title": "UK Daylighting Design",
+      "load_when": "Daylight factor, sunlight amenity, right to light risk, or daylight/sunlight studies"
+    },
+    {
+      "id": "uk-design-theory",
+      "title": "UK Design Theory",
+      "load_when": "Design rationale, architectural theory, or design critique beyond compliance"
+    },
+    {
+      "id": "uk-fee-proposal-strategy",
+      "title": "UK Fee Proposal Strategy",
+      "load_when": "Fee proposals, scope of services, appointment terms, or commercial positioning"
+    },
+    {
+      "id": "uk-fire-life-safety",
+      "title": "UK Fire and Life Safety",
+      "load_when": "Approved Document B, fire strategy, compartmentation, evacuation, or Regulation 38 handover"
+    },
+    {
+      "id": "uk-fsd-licensing-compliance",
+      "title": "UK Fire Completion and Commissioning",
+      "load_when": "FSO compliance evidence, fire commissioning, responsible person handover, or fire alarm/sprinkler testing chain"
+    },
+    {
+      "id": "uk-heritage-conservation",
+      "title": "UK Heritage Conservation",
+      "load_when": "Listed buildings, conservation areas, heritage impact, or HIA-style assessments"
+    },
+    {
+      "id": "uk-lease-compliance",
+      "title": "UK Lease Compliance",
+      "load_when": "Lease constraints, landlord approvals, reinstatement, or tenant alteration obligations"
+    },
+    {
+      "id": "uk-material-selection",
+      "title": "UK Material Selection",
+      "load_when": "Material specification, durability, embodied impacts, or product compliance evidence"
+    },
+    {
+      "id": "uk-mic-dfma",
+      "title": "UK MiC and DfMA",
+      "load_when": "Modern methods of construction, offsite, modular, or DfMA delivery strategy"
+    },
+    {
+      "id": "uk-minor-works",
+      "title": "UK Minor Works and Permitted Development",
+      "load_when": "Permitted development, lawful development certificates, or small works under GPDO limits"
+    },
+    {
+      "id": "uk-op-submission-strategy",
+      "title": "UK Building Control Completion Strategy",
+      "load_when": "Building Control completion certificate, BSR Gateway 3 evidence, partial occupation, or record drawings"
+    },
+    {
+      "id": "uk-plan-of-work",
+      "title": "UK Plan of Work",
+      "load_when": "RIBA Plan of Work stages 0–7, stage gates, BSA gateway mapping, or per-stage task checklists"
+    },
+    {
+      "id": "uk-procurement-strategy",
+      "title": "UK Procurement Strategy",
+      "load_when": "Procurement route selection, traditional vs D&B vs management vs NEC4, risk allocation, or weather EOT by route"
+    },
+    {
+      "id": "uk-project-management",
+      "title": "UK Project Management",
+      "load_when": "Delivery plan, consultant appointments, risk/VM, client reporting, programme/budget monitoring, or dispute escalation"
+    },
+    {
+      "id": "uk-practical-completion-snagging",
+      "title": "UK Practical Completion and Snagging",
+      "load_when": "Practical completion, snagging, handover, defects period, or aftercare"
+    },
+    {
+      "id": "uk-professional-indemnity",
+      "title": "UK Professional Indemnity",
+      "load_when": "PI insurance, claim notification, liability exposure, or risk transfer in appointments"
+    },
+    {
+      "id": "uk-project-resource-levelling",
+      "title": "UK Project Resource Levelling",
+      "load_when": "Resource planning, team levelling, workload peaks, or delivery capacity"
+    },
+    {
+      "id": "uk-site-establishment",
+      "title": "UK Site Establishment",
+      "load_when": "Site mobilisation, Party Wall Act, Chapter 8 hoarding, utility diversions, TfL TMP, or telecom/utility protection"
+    },
+    {
+      "id": "uk-site-supervision",
+      "title": "UK Site Supervision",
+      "load_when": "Site inspections, NCRs, RFIs, quality governance, or construction stage administration"
+    },
+    {
+      "id": "uk-spatial-planning",
+      "title": "UK Spatial Planning",
+      "load_when": "Planning policy, applications, conditions, s106, or development management"
+    },
+    {
+      "id": "uk-structural-systems",
+      "title": "UK Structural Systems",
+      "load_when": "Structural strategy, buildability, movement joints, or structural coordination"
+    },
+    {
+      "id": "uk-tender-contract-administration",
+      "title": "UK Tender and Contract Administration",
+      "load_when": "JCT 2024, NEC4, FIDIC, tender documentation, variations, EOT, LDs, or claims"
+    },
+    {
+      "id": "uk-unauthorised-building-works",
+      "title": "UK Unauthorised Building Works",
+      "load_when": "Regularisation, enforcement, retrospective approval, or unlawful works remediation"
+    }
+  ]
+}

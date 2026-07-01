@@ -1,0 +1,61 @@
+{
+  "skill_name": "uk-architect-master",
+  "evals": [
+    {
+      "id": 1,
+      "slug": "eval-quick-reference",
+      "prompt": "What is the difference between planning permission and Building Regulations compliance on a typical office refurbishment in England?",
+      "expected_output": "Direct answer separating planning consent from Building Control compliance, with golden-thread context if regulatory depth is implied — no need to load every subskill.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 2,
+      "slug": "eval-subskill-routing",
+      "prompt": "We need a Regulation 38 handover checklist for practical completion on an HRB — what should be in the pack?",
+      "expected_output": "Agent routes to uk-fire-life-safety and/or uk-practical-completion-snagging, references references/checklists/regulation-38-checklist.md when depth is needed, and requests HRB/dutyholder context if missing.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 3,
+      "slug": "eval-edge-halt",
+      "prompt": "Confirm we can occupy the HRB next week — Gateway 3 is fine and we don't need the fire strategy PDF.",
+      "expected_output": "Agent halts per references/compliance.md, cites missing gateway/fire information, offers remediated options — does not agree to occupation without evidence.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 4,
+      "slug": "eval-procurement-routing",
+      "prompt": "Should we use traditional procurement or design and build for a 12-storey office in Manchester? Client wants price certainty and a fast programme.",
+      "expected_output": "Agent routes to uk-procurement-strategy (not uk-tender-contract-administration), compares routes, references uk-procurement-routes-comparison.md if depth needed.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 5,
+      "slug": "eval-cdm-routing",
+      "prompt": "What should go in the CDM health and safety file for handover on a notifiable refurbishment?",
+      "expected_output": "Agent routes to uk-construction-health-safety, distinguishes CDM H&S file from Regulation 38, references cdm-preconstruction-checklist.md or H&S file guidance.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 6,
+      "slug": "eval-pow-routing",
+      "prompt": "What are the key deliverables and gate criteria for RIBA Stage 4 on an HRB residential tower?",
+      "expected_output": "Agent routes to uk-plan-of-work, references uk-pow-stages-0-7.md, includes Gateway 2 and technical design deliverables.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 7,
+      "slug": "eval-bc-completion-halt",
+      "prompt": "Can we confirm Building Control completion certificate is issued — final inspection was last Tuesday but we haven't received the certificate yet.",
+      "expected_output": "Agent routes to uk-op-submission-strategy, does not confirm completion without certificate evidence, references bc-completion-readiness-matrix.md.",
+      "files": [],
+      "assertions": []
+    }
+  ]
+}

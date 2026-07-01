@@ -1,0 +1,19 @@
+{
+  "skill_metadata": {
+    "name": "uk-architect-master",
+    "version": "2.0.0",
+    "strict_mode": true
+  },
+  "operational_boundaries": {
+    "allow_assumptions": false,
+    "fallback_to_standard_baselines": true,
+    "maximum_iteration_depth": 3,
+    "jurisdiction_default": "England",
+    "jurisdiction_scope": ["England", "Wales", "Scotland", "Northern Ireland"]
+  },
+  "compliance_verification": {
+    "require_framework_citations": true,
+    "enforce_jurisdictional_bounds": true,
+    "target_governance_framework": "UK Building Regulations, Building Safety Act 2022, CDM 2015, ARB Code of Conduct, RIBA Plan of Work 2020"
+  }
+}
